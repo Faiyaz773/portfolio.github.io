@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Faiyaz Ahamed Khan</h1>
+        <img src="profile.jpg" alt="Photo" width="100">
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><a href="#skills">Technical Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Brief background information about yourself.</p>
+        <blockquote>Something Something</blockquote>
+    </section>
+    
+    <section id="links">
+        <h2>Useful Links</h2>
+        <ul>
+            <li><a href="https://www.bracu.ac.bd" target="_blank">BRAC University</a></li>
+            <li><a href="https://discord.com/channels/1336204230502912022/1336204232143147080" target="_blank">CSE 391 Discord</a></li>
+            <li><a href="hobbies.html">My Hobbies</a></li>
+        </ul>
+    </section>
+    
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>Python</li>
+        </ul>
+    </section>
+    
+    <section id="table">
+        <h2>Experience & Education</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Board/Institution</th>
+                <th>Result</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>B.Sc</td>
+                <td>Computer Science</td>
+                <td>Brac University</td>
+                <td>Currently Studying</td>
+                <td>4th</td>
+            </tr>
+            <tr>
+                <td>H.S.C</td>
+                <td>Science</td>
+                <td>Dhaka</td>
+                <td>5.00</td>
+                <td>2020</td>
+            </tr>
+            <tr>
+                <td>S.S.C</td>
+                <td>Science</td>
+                <td>Dhaka</td>
+                <td>5.00</td>
+                <td>2018</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your.email@example.com">faiyaz.ahamed.khan@g.bracu.ac.bd</a></p>
+        <p>Phone: <a href="tel:+123456789">01705346631</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Faiyaz. All Rights Reserved.</p>
+        <p id="lastModified"></p>
+        <script>
+            document.getElementById("lastModified").textContent = "Last Updated: " + document.lastModified;
+        </script>
+    </footer>
+</body>
+</html>
